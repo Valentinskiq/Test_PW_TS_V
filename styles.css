@@ -1,10 +1,65 @@
-<<<<<<< HEAD
-h1 {
-    color: white;
-    background-color: black;
-=======
-h1 {
-    color: white;
-    background-color: black;
->>>>>>> 909200a (First Commit)
-}
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  header {
+    background-color: #333;
+  }
+  header nav {
+    text-align: center;
+  }
+  header nav ul {
+    list-style-type: none;
+  }
+  header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  main {
+    text-align: center;
+  }
+  main h1 {
+    margin: 10px 0;
+  }
+  main .search-bar {
+    margin-bottom: 10px;
+  }
+  main .search-bar input{
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid gray;
+  }
+  main .search-bar button{
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px gray;
+    font-weight: 600;
+  }
+  main .search-bar button:hover{
+    cursor: pointer;
+    background-color: #c9c9c9;
+  }
+
+  main .image-container img {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  main .image-container img:hover {
+    scale: 1.1;
+  }
+  main .description p {
+    width: 500px;
+    margin: 0 auto;
+  }
+  main .description h3,
+  main .description h4 {
+    margin-bottom: 10px;
+  }
+  footer {
+    text-align: center;
+    background-color: #333;
+  }
+  footer p {
+    color: #fff;
+  }
