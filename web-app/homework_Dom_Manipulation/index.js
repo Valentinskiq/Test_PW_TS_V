@@ -1,0 +1,12 @@
+var homeworkH1 = document.getElementsByTagName("h1")[0];
+homeworkH1.textContent = "Welcome to my Homework";
+var divsHomeWork = document.querySelector(".content");
+var paragraphsTwo = divsHomeWork.querySelector("p");
+paragraphsTwo.style.color = "#fffb00";
+var uiHomeWork = document.getElementById("list");
+var liHomework = uiHomeWork.getElementsByTagName("li");
+liHomework[0].textContent = "Apple";
+liHomework[1].textContent = "Banana";
+liHomework[2].textContent = "Cherry";
+var myButton = document.querySelector("button");
+myButton.style.border = "1px solid red";
